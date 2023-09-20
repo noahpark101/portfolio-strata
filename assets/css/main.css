@@ -2168,6 +2168,21 @@ input, select, textarea {
 			padding-left: 0.5em;
 		}
 
+		ul ul {
+			margin: 0 0 0 0;
+			list-style: none;
+		}
+
+			ul ul li::before {
+				content: "\25E6";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+				font-size: 20px;
+				color: #000000; /* Change the color */
+				font-weight: bolder; /* If you want it to be bold */
+				display: inline-block; /* Needed to add space between the bullet and the text */
+				width: 1.5em; /* Also needed for space (tweak if needed) */
+				margin-left: -1.25em; /* Also needed for space (tweak if needed) */
+			}
+
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
