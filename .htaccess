@@ -6,3 +6,4 @@ ErrorDocument 404 /404.html
 # DO NOT REMOVE THIS LINE AND THE LINES ABOVE CzLrSNxcFv:ERRORPAGEID
 
 Redirect 301 "/resume.html" "/Noah_Park_Resume.pdf"
+Redirect 301 "/resume" "/Noah_Park_Resume.pdf"
